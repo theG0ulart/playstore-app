@@ -1,0 +1,25 @@
+.menu-bar__container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 10vh;
+  width: 100vw;
+  padding: 1rem;
+  box-shadow: 0 5px 10px black;
+}
+
+.menu-bar__navbar {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar__nav-item {
+  text-wrap: nowrap;
+  margin: 0 1rem;
+}
